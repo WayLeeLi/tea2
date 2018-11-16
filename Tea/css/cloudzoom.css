@@ -1,0 +1,61 @@
+/*
+ Cloud Zoom CSS. (c)2012-2013 Star Plugins.
+*/
+
+/* CSS for lens */
+.cloudzoom-lens {
+    border: 3px solid #888;
+    width: 50px;
+    height: 50px;
+    box-shadow: -0px -0px 10px rgba(0,0,0,0.40);
+    cursor: crosshair;
+    background: #fff;
+    z-index: 10;
+}
+/* CSS for zoom window. */
+.cloudzoom-zoom {
+    border: 1px solid #888;
+    width: 100px;
+    height: 100px;
+    box-shadow: -0px -0px 10px rgba(0,0,0,0.40);
+	z-index:9;
+	background:#fff;
+}
+/* CSS for zoom window in 'inside' mode. */
+.cloudzoom-zoom-inside {
+    border: none;
+    box-shadow: none;
+}
+
+/* CSS for captions */
+.cloudzoom-caption {
+    display: none; /* CSS captions should be hidden initially */
+    text-align: left;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+/* A blank image */
+.cloudzoom-blank {
+    background-image: url(blank.png);
+
+}
+
+/* The animated ajax loading image */
+.cloudzoom-ajax-loader {
+    background-image: url(ajax-loader.gif);
+    width: 32px;
+    height: 32px;
+}
+
+
+/*外层盒子和里边图片的一点点样式*/
+.jqueryzoom { position: relative; padding: 0; border: solid 1px #eaeaea; width: 400px; height:400px; overflow: hidden; display: inline-block; }
+/*放大镜是基于图片大小自动生成的，每次都要把jqueryzoom中img的大小和jqueryzoom盒子大小设置为一样的，不然放大镜滑块有可能溢出*/
+.jqueryzoom img { width: 400px; position:absolute !important; top:0 !important; left:0; height:400px;}
+.itme>img { width: 100px; height: 100px; opacity: 1}
+.cloudzoom-gallery-active{opacity: 1}

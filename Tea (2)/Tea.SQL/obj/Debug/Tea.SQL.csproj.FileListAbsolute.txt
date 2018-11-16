@@ -1,0 +1,11 @@
+E:\tw\Tea\Tea (2)\Tea.SQL\bin\Debug\Tea.SQL.dll
+E:\tw\Tea\Tea (2)\Tea.SQL\bin\Debug\Tea.SQL.pdb
+E:\tw\Tea\Tea (2)\Tea.SQL\bin\Debug\Tea.DBUtility.dll
+E:\tw\Tea\Tea (2)\Tea.SQL\bin\Debug\Tea.Ljd.dll
+E:\tw\Tea\Tea (2)\Tea.SQL\bin\Debug\Tea.Model.dll
+E:\tw\Tea\Tea (2)\Tea.SQL\bin\Debug\Tea.DBUtility.pdb
+E:\tw\Tea\Tea (2)\Tea.SQL\bin\Debug\Tea.Ljd.pdb
+E:\tw\Tea\Tea (2)\Tea.SQL\bin\Debug\Tea.Model.pdb
+E:\tw\Tea\Tea (2)\Tea.SQL\obj\Debug\Tea.SQL.csprojResolveAssemblyReference.cache
+E:\tw\Tea\Tea (2)\Tea.SQL\obj\Debug\Tea.SQL.dll
+E:\tw\Tea\Tea (2)\Tea.SQL\obj\Debug\Tea.SQL.pdb

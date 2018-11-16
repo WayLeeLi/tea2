@@ -1,0 +1,4 @@
+E:\tw\Tea\Tea (2)\Tea.Model\bin\Debug\Tea.Model.dll
+E:\tw\Tea\Tea (2)\Tea.Model\bin\Debug\Tea.Model.pdb
+E:\tw\Tea\Tea (2)\Tea.Model\obj\Debug\Tea.Model.dll
+E:\tw\Tea\Tea (2)\Tea.Model\obj\Debug\Tea.Model.pdb

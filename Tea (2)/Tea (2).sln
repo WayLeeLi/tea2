@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tea", "..\Tea\", "{7AAB9706-AD93-4F3A-ABDD-27D2773DAB76}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{5A6BF962-1FBF-4281-BED2-1F395DEB426A}|Tea.Web.dll;{23398DBA-B7B0-4002-8AF7-4D2CD355B123}|Tea.BLL.dll;{1E36014B-3FD0-4C5B-A9F1-D3256250ED45}|Tea.DBUtility.dll;{091F8A8A-AFAA-4B1F-8DD8-C2749314F4A9}|Tea.Ljd.dll;{B5A25A95-183E-4763-BFA6-B46653234A72}|Tea.Model.dll;{CB3F1C61-574A-41B6-80BC-4E552ACC1DF8}|Tea.SQL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Tea"
+		Debug.AspNetCompiler.PhysicalPath = "..\Tea\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Tea\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Tea"
+		Release.AspNetCompiler.PhysicalPath = "..\Tea\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Tea\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "17921"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tea.BLL", "Tea.BLL\Tea.BLL.csproj", "{23398DBA-B7B0-4002-8AF7-4D2CD355B123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tea.DBUtility", "Tea.DBUtility\Tea.DBUtility.csproj", "{1E36014B-3FD0-4C5B-A9F1-D3256250ED45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tea.Ljd", "Tea.Ljd\Tea.Ljd.csproj", "{091F8A8A-AFAA-4B1F-8DD8-C2749314F4A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tea.Model", "Tea.Model\Tea.Model.csproj", "{B5A25A95-183E-4763-BFA6-B46653234A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tea.SQL", "Tea.SQL\Tea.SQL.csproj", "{CB3F1C61-574A-41B6-80BC-4E552ACC1DF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tea.Web", "Tea.Web\Tea.Web.csproj", "{5A6BF962-1FBF-4281-BED2-1F395DEB426A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AAB9706-AD93-4F3A-ABDD-27D2773DAB76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAB9706-AD93-4F3A-ABDD-27D2773DAB76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAB9706-AD93-4F3A-ABDD-27D2773DAB76}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAB9706-AD93-4F3A-ABDD-27D2773DAB76}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{23398DBA-B7B0-4002-8AF7-4D2CD355B123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23398DBA-B7B0-4002-8AF7-4D2CD355B123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23398DBA-B7B0-4002-8AF7-4D2CD355B123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23398DBA-B7B0-4002-8AF7-4D2CD355B123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E36014B-3FD0-4C5B-A9F1-D3256250ED45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E36014B-3FD0-4C5B-A9F1-D3256250ED45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E36014B-3FD0-4C5B-A9F1-D3256250ED45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E36014B-3FD0-4C5B-A9F1-D3256250ED45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091F8A8A-AFAA-4B1F-8DD8-C2749314F4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091F8A8A-AFAA-4B1F-8DD8-C2749314F4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091F8A8A-AFAA-4B1F-8DD8-C2749314F4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091F8A8A-AFAA-4B1F-8DD8-C2749314F4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A25A95-183E-4763-BFA6-B46653234A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A25A95-183E-4763-BFA6-B46653234A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A25A95-183E-4763-BFA6-B46653234A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A25A95-183E-4763-BFA6-B46653234A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB3F1C61-574A-41B6-80BC-4E552ACC1DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3F1C61-574A-41B6-80BC-4E552ACC1DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3F1C61-574A-41B6-80BC-4E552ACC1DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3F1C61-574A-41B6-80BC-4E552ACC1DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A6BF962-1FBF-4281-BED2-1F395DEB426A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6BF962-1FBF-4281-BED2-1F395DEB426A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6BF962-1FBF-4281-BED2-1F395DEB426A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6BF962-1FBF-4281-BED2-1F395DEB426A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
